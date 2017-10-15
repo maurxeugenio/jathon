@@ -15,3 +15,6 @@ class out:
 
     def println(arg):
         print(f'{arg} \n')
+        
+    def printf(arg, *values):
+        print(arg % (values))
