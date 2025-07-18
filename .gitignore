@@ -1,1 +1,41 @@
-*.pyc
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Arquivos de ambiente virtual
+venv/
+.env/
+.envrc
+.venv/
+.Python
+
+# Diretórios de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Testes e cache
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+
+# Arquivos de configuração loca
